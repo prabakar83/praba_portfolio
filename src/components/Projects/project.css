@@ -1,0 +1,60 @@
+/* Heading */
+.work-heading {
+  font-size: 2.5em;
+  margin-top: 40px;
+  color: #ffffff; /* FIX */
+  margin-bottom: 60px;
+}
+
+/* Subtext */
+.work-subtext {
+  color: #d1d1d1; /* lighter gray for readability */
+  margin-bottom: 40px;
+}
+
+/* Card */
+.work-card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  backdrop-filter: blur(10px);
+}
+
+/* Company name */
+.company {
+  color: #c770f0; /* keep purple highlight */
+  font-weight: bold;
+}
+
+/* Role */
+.work-card h4 {
+  color: #ffffff; /* FIX (was too dim) */
+}
+
+/* Location */
+.location {
+  color: #bfbfbf; /* slightly brighter */
+}
+
+/* Bullet text */
+.work-card ul li {
+  color: #e0e0e0; /* FIX: readable white */
+}
+
+/* Make the projects page background cover the full viewport height */
+.project-section {
+  min-height: 100vh; /* fill full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* center content vertically */
+  width: 100%;
+  padding: 60px 0; /* keep top/bottom spacing */
+}
+
+/* Ensure inner container stretches so background covers area */
+.project-section > .container {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+}
